@@ -274,7 +274,7 @@ function initMap() {
 	strokeWeight: 2,
 	map:map
 	});
-	marker=new google.maps.Marker({map:map, icon:"http://maps.google.com/mapfiles/ms/micons/blue.png"});
+	marker=new google.maps.Marker({map:map, icon:"https://maps.google.com/mapfiles/ms/micons/blue.png"});
 	
 	//alert(window.location.href);
 	urlstring = window.location.href; //use the url to work out where the panforscoll should start and stop according to the trip_position dictionary
